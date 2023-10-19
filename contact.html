@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek mishra - Web Development, Programmer, ML Enthusiast </title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <div class="container">
+    <div class = "sidebar"style="width: 235px;">
+       
+        <nav>
+            <ul>
+                <li><a href = "/">Home</a></li>
+                <li><a href = "./about.html">About Me</a></li>
+                <li><a href = "./services.html">Services</a></li>
+                <li><a href = "./blog.html">Blog</a></li>
+                <li><a href = "./contact.html">Contact</a></li>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class = "main">
+       <div class="contactform" style="margin-left: 50px;">
+        <h1>Contact me for work/general enquiries</h1>
+        <br>
+        <form>
+            <div class="mb-3" style="display: flex; flex-direction: column; padding : 4px 0;">
+              <!--client name-->
+              <label for="clientename" class="form-label">Name</label>
+              <!--name input-->
+              <input type="name" class="form-control" id="clientename" aria-describedby="emailHelp" style=" border-radius: 5px;font-size: 20px; width: 26vw; margin: 6px 0; padding: 3px ; margin-bottom: 25px; " >
+
+
+              <!--client email-->
+              <label for="clientemail" class="form-label">Email address</label>
+
+
+              <!--email input-->
+              <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" style=" border-radius: 5px;font-size: 20px; width: 26vw; margin: 6px 0; padding: 3px; " >
+
+
+              <!--email help-->
+              <div id="emailHelp" class="form-text" style = "color: midnightblue; font-size: 10px; margin: 0 5px;">We'll never share your email and phone with anyone else.</div>
+            </div>
+
+            <!--enquiry-->
+            <label for="clientenquiry" class="form-label">Enquiry</label>
+            <!--enquiry input-->
+            <textarea name = "mytext" col = "30" row = "60" class="form-control" id="clientenquiry" aria-describedby="emailHelp" style=" border-radius: 5px;font-size: 20px; width: 26vw; margin: 6px 0; padding: 3px; display: flex; " ></textarea>
+
+            <!--subject-->
+            <label for="clientsubject" class="form-label">Subject</label>
+            <!--subject input-->
+            <input type="subject" class="form-control" id="clientsubject" aria-describedby="emailHelp" style=" border-radius: 5px;font-size: 20px; width: 26vw; margin: 6px 0; padding: 3px; display: flex; " >
+
+
+
+            <!--phone label-->
+            <div class="mb-3" style="display: flex; flex-direction: column;">
+              <label for="clientphone" class="form-label" style = "display: flex; flex-direction: column;">Phone</label>
+
+              <!--phone input-->
+              <input type="phone" class="form-control" id="clientphone" style=" border-radius: 5px;font-size: 20px; width: 26vw; margin: 6px 0 0 0; padding: 3px;">
+            </div>
+
+            <!--checkbox-->
+            <div class="mb-3" id = "form-check" style="flex-direction: row; display: flex;">
+              <input type="checkbox" class="form-check-input" id="isclient">
+
+              <!--checkbox input-->
+              <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+            </div>
+
+            <!--submit button-->
+            <div class ="btn" style="width: 0;">
+            <button type="submit" class="btn btn-sm">Submit</button>
+            </div>
+
+          </form>
+       </div>
+</div>
+
+
+    </div> 
+</body>
+</html>
